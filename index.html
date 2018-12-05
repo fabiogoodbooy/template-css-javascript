@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="an" >
+<head>
+  <meta charset="UTF-8">
+  <title>OUT BOX STUDIO</title>
+  <link rel="icon" href="logo/logo-outboxpro.png">
+   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/nav-offre.js"></script>
+    <script src="js/scrol.js"></script>
+    <script src="js/valid_form.js"> </script>
+    <script src="js/show-pwd.js"></script>
+  <script src="js/scrolTop.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+    
+        
+  
+</head>
+    <body>
+        <header>
+            <a href="index.html"><img src="logo/logo-outboxpro.png"> </a>
+            <nav role="navigation">
+                <ul>
+                        <li><a class="link-1 active" href="#home">HOME</a></li>
+                    
+                        <li><a class="link-2" href="#services">SERVICES</a></li>
+                    
+                        <li><a class="link-3" href="#about">ABOUT</a></li>
+                    
+                    
+                        <li><a class="link-4" href="#contact-us">CONTACT</a></li>
+            
+                    </ul>
+            </nav>
+        </header>
+        
+        <section id="home">
+            <h1 class="H1">OUTBOX STUDIO</h1>
+            <h2 class="H2">WE INNVATE FOR YOU</h2>
+            <button class="prev" id="1">&#10094;</button>
+            <img id="ph" src="">
+            <button class="next" id="2"> &#10095;</button>
+            
+            
+            <div class="project">
+                <div class="block">
+                        <img class="" src="icon/laptop.png">
+                        <h3 class="titre"> DESIGN </h3>
+                        <p class="sous-titre">We integreated the best designers to share your inspiration and create it for you. </p>
+                </div>
+                
+                
+                
+                <div class="block">
+                        <img class="" src="icon/startup.png">
+                        <h3 class="titre"> GAME DEVLEOPMENT </h3>
+                        <p class="sous-titre">Push the limits outside the box with new porfull games the box with new porfull games.  </p>
+                </div>
+                
+                
+                
+                <div class="block">
+                        <img class="" src="icon/tablet.png">
+                    <h3 class="titre"> MOBILE APPLICATION</h3>
+                        <p class="sous-titre">
+Creat your custloized appliction.Create your custmozied application.
+</p>
+                </div>
+        </div>
+    <script>
+    $(function(){
+		var i=1;
+$('#ph').attr('src','img_'+i+'.jpg');
+$('#1').click(function(){
+
+if(i==1){
+i=5;
+$('#ph').attr('src','img_'+i+'.jpg');
+}else{i--;
+$('#ph').attr('src','img_'+i+'.jpg');
+}
+});
+$('#2').click(function(){
+
+if(i==5){
+i=1;
+$('#ph').attr('src','img_'+i+'.jpg');
+}else{i++;
+$('#ph').attr('src','img_'+i+'.jpg');
+}
+});
+
+
+
+
+	});
+    </script>
+            <script>
+            $(document).ready(function(){
+                $("#home").fadeIn("slow");
+                
+            });
+            </script>
+            <!-- Button TOP-->
+           <button    id="Top"></button>
+           <!--
+            <script>
+            $(document).ready(function(){
+                $("#Top").click(function(e){
+                    
+                    $('html,body').animate({
+                        scrollTop: $($(this).attr('href').offset().top -70 },'slow');
+                        e.preventDefault();
+                        return false;
+                    
+                });
+                
+            });
+            
+            </script>
+          -->
+            <!--
+            <script>
+                //schow the button
+            window.onscroll = function(){
+                scrolleFunction()
+            };
+                function scrolleFunction (){
+                   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("Top").style.display = "block";
+    } else {
+        document.getElementById("Top").style.display = "none";
+    }
+                }
+               
+                //when the user clicks on the button , scrolle to the top of the page
+                function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+} 
+            
+            </script> -->
+</section>
+        <section id="services">
+            <div>
+            <img class="img-services" src="img/GROWTH-MARKETING-for-startup-founders-1-w-background.png">
+            </div>
+            <H1 class="titre" style="color: black"> What We Offer ?</H1>
+            <h3 class="sous-titre">Reflective Of The Type Of Service We Offer Our Clients !</h3>
+            
+            
+      <div id="liste-services">
+          <ul>
+              <li><a class="web active" href="#Web">Web Design</a></li>
+            
+              <li><a class="marketing" href="#Marketing">Online Marketing</a> </li>
+              <li><a class="e-commerce" href="#E-commerce">E-Commerce </a></li>
+              <li><a class="logo" href="Logo">Logo & Brading</a> </li>
+          
+          </ul>
+          
+         </div>
+            <div id="Web">
+            <div class="all-block">
+           <div class="Block-service">
+               <div class="black1">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+Best Website Design</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+               </div>
+               
+            <div class="black2">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+Best Website Design</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               <div class="black3">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               </div>
+               <div class="block-video">
+               
+               <video autoplay muted loop>
+                   <source src="video/motion-graphics-infographic-ahrefs-2d.mp4">
+                   </video>
+               
+               </div>
+            
+            </div>
+                </div>
+            
+            
+            <!-- button Online Marketing -->
+        <div id="Marketing">
+            <div class="all-block">
+           <div class="Block-service">
+               <div class="black1">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+               </div>
+               
+            <div class="black2">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               <div class="black3">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               
+               </div>
+               <div class="block-video">
+               
+               <video autoplay muted loop>
+                   <source src="video/animated-marketing-videos.mp4">
+                   </video>
+               
+               </div>
+            
+            </div>
+                </div>
+            
+            
+            
+            
+            
+            
+            <!-- button E-commerce -->
+            <div id="E-commerce">
+            <div class="all-block">
+           <div class="Block-service">
+               <div class="black1">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+               </div>
+               
+            <div class="black2">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               <div class="black3">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               
+               </div>
+               <div class="block-video">
+               
+               <video autoplay muted loop>
+                   <source src="video/ecommerce-promotions-motion-graphic-animation.mp4">
+                   </video>
+               
+               </div>
+            
+            </div>
+                </div>
+            
+            
+            
+            <!-- button Logo -->
+             <div id="Logo">
+            <div class="all-block">
+           <div class="Block-service">
+               <div class="black1">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+               </div>
+               
+            <div class="black2">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               <div class="black3">
+            <img class="block-img" src="icon/checked.png">
+               <div class="block-text">
+               <h3 class="block-titre"> 
+RETINA READY</h3>
+            <p class="block-sous-titre"> Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.
+
+                   </p> </div>
+            </div>
+               
+               </div>
+               <div class="block-video">
+               
+               <video autoplay muted loop>
+                   <source src="video/motion-graphics-portfolio.mp4">
+                   </video>
+               
+               </div>
+            
+            </div>
+                </div>
+            
+  
+</section>
+        <section id="about">
+        <img class="img-services" src="img/startup-3.jpg">
+            <h1 class="H1abs">NICE & SIMPLE</h1>
+            <h3 class="H2abs"> Work Hard & Be Nice To Pepole</h3>
+        
+        
+        
+                <div class="block" style="margin-top: -200px;">
+                        <img class="perssone"  style="border-radius: 50%;"src="img/person_1.jpg">
+                        <h3 class="titre" style="margin:10px 0 0 0;"> Oussema Tarchouna </h3>
+                    <p class="sous-titre" style="margin: 0px;">Web Designer</p>
+                        <p class="sous-titre">We integreated the best designers to share your inspiration and create it for you. </p>
+                </div>
+                
+                
+                
+                <div class="block" style="margin-top: -200px;">
+                        <img class="perssone" style="border-radius: 50%;" src="img/person_2.jpg">
+                        <h3 class="titre" style="margin:10px 0 0 0;"> Farouk Rebhi </h3>
+                    <p class="sous-titre" style="margin: 0px;">Front-end Developer</p>
+                        <p class="sous-titre">Push the limits outside the box with new porfull games the box with new porfull games.  </p>
+                </div>
+                
+                
+                
+                <div class="block" style="margin-top: -200px;">
+                        <img class="perssone" style="border-radius: 50%;" src="img/person_3.jpg">
+                    <h3 class="titre" style="margin:10px 0 0 0;"> Wail Tarchouna</h3>
+                    <p class="sous-titre" style="margin: 0px;">Back-end Developer</p>
+                        <p class="sous-titre">
+Creat your custloized appliction.Create your custmozied application.
+</p>
+                </div>
+            </section>
+        
+        
+        
+          <section id="contact-us" role="region">
+              <div class="contact">
+        <form>
+ 
+            <label> First Name </label>
+            
+                    <input class="form-control" type="text"  placeholder="Your firstname">
+            <label> Last Name</label>
+                    <input class="form-control" type="text" placeholder="Your Lastname">
+            
+            <label>Email</label>
+                    <input id="mail" class="form-control" type="email" placeholder="Your email address">
+            <label>Subject</label>
+                    <input class="form-control" type="text" placeholder="Your subject of this message">
+            <label>Message</label>
+                    <textarea style="margin: 0px 147px 0px 0px; width: 496px; height: 146px;" class="form-control" placeholder="Write us something"></textarea>
+                    <input id="btnvalide" class="btn-primary"type="submit" value="Send Message">
+            
+            </form>
+              </div>
+        
+        <div class="info">
+            <ul>
+                <li>
+                    <img src="icon/new-message.png"><a href="mailto:info@yoursite.com"> &nbsp;&nbsp;farouk_rabhi@msn.com</a>
+                </li>
+                
+                <li>
+                    <img src="icon/handset.png"> <a href="tel://56137775">&nbsp;&nbsp;+ 216 56 137 775</a>
+                </li>
+                 <li>
+                    <img src="icon/location-pointer.png"> &nbsp; &nbsp;Tunisia , Sousse ,Sahloul1,<br>
+                &nbsp; &nbsp; &nbsp;Sahloul1 5 Rue Asweb Ben Abess
+                </li>
+                
+            </ul>
+            <br>
+            <div id="map" style="width:100%;height:300px"></div>
+            
+        
+        
+        <!-- API google map -->
+
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(35.8308483,10.5891496);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 13};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+
+  // Zoom to 9 when clicking on marker
+  google.maps.event.addListener(marker,'click',function() {
+    map.setZoom(9);
+    map.setCenter(marker.getPosition());
+  });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTpj3S_ckOZ3UV41RKkUh9yVYPKRPjYUM&callback=myMap"></script>
+            </div>
+       
+        
+        </section>
+         <div id="Subscribe">
+        <h1 class="Hs">Subscribe</h1>
+            <p class="hp">Be the first to know about the new project</p>
+            <form action="#">
+                <div class="2-lign">
+                <input class="cntr-form" type="text" placeholder="First Name" id="nome" onblur="checkNom()">
+                <input  class="cntr-form" type="text" placeholder="Last Name" id="pre" onblur="checkPre()">
+                    </div>
+                <div>
+                <input id="txtEmail" style="width: 550px;" class="cntr-form" type="email" placeholder="Email Address" onblur="checkEmail()">
+                </div>
+                    <div>
+                <input class="cntr-form" type="password" placeholder="Password" id="pwd">
+                <input class="cntr-form" type="password" placeholder="Confirm Password" id="cpwd" pattern=".{8,}" title="Six or more characters">  <img id="chek" src="icon/check.png"> <img id="x"src="icon/x-mark.png"> 
+                    </div>
+                <input type="checkbox"  name="pwd" onclick="myFunction()"> <span class="show" > Show Password</span> 
+                <input id="sub" class="btn-primary" type="submit" value="Subscribe">
+            
+            </form>
+             <script>
+     
+
+function checkEmail() {
+    //le contenu d'email
+    var email = document.getElementById('txtEmail');
+    // pour tester
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email.value)) {
+        //si le contenu d'email n'est pas egal a filtre
+    alert('Please provide a valid email address');
+        //curseur sur zone email
+    email.focus;
+    return false;
+ }
+    
+}
+        function checkNom(){
+            var nom = document.getElementById('nome');
+            var filter =/^[a-zA-Z]+$/;
+            if(!filter.test(nom.value)){
+                alert('Name Just A-Z ');
+                nom.focus;
+                return false;
+            }
+        }
+        function checkPre(){
+            var nom = document.getElementById('pre');
+            var filter =/^[a-zA-Z]+$/;
+            if(!filter.test(nom.value)){
+                alert('Last Name Just A-Z ');
+                nom.focus;
+                return false;
+            }
+        }
+</script>
+              
+              
+              
+              </div>
+        <footer role="contentinfo">
+            <div id="footer-L">
+        © 2018 All Rights Reserved.
+Designed by <span style="color:#F85A16 "> Omar Farouk Rebhi .</span>
+                </div>
+            <div id="footer-R">
+                <a href=""><img src="icon/facebook-logo.png"></a>&nbsp;&nbsp;
+                <a href=""><img src="icon/google-plus.png"></a>&nbsp;&nbsp;
+                <a href=""><img src="icon/logo-linkedin.png"></a>&nbsp;&nbsp;
+                <a href=""><img src="icon/twitter-logo.png"></a>
+            </div>
+        </footer>
+        
+        
+      </body>
+</html>
